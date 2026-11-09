@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+dist/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# env (keep examples)
+.env
+.env.*
+!.env.example
+
+# logs / OS / editor
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# misc
+coverage/
+.vercel
